@@ -1,0 +1,160 @@
+
+.header {
+	width: 100%;
+	background-color: white;
+	border-spacing: 5px;
+    clear:both;
+    border-bottom-style:solid;
+    border-color: #000000;
+}
+
+
+.header table{
+	width: 100%;
+    cell-spacing: 0px;
+    border-collapse:collapse;
+    margin-top: 0.25em;
+    clear: both;
+}
+
+#resultsTable {
+	width: auto;
+	background-color: white;
+	border-spacing: 5px;
+    clear:both;
+    text-align: left;
+}
+
+#resultsTable table {
+	width: 100%;
+    cell-spacing: 0px;
+    border-collapse:collapse;
+    text-align: left;
+    margin-top: 0.25em;
+    clear: both;
+    border:1px solid #C2D4E8;
+}
+
+#resultsTable td, #resultsTable th {
+	background-color: #FFFFFF;
+	padding-right: 6px;
+    padding-left:6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 120%;
+    white-space:nowrap;
+}
+
+#resultsTable th {
+	background-color: #ffffff;
+	font-size: 130%;
+	text-align: left;
+}
+
+.button {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: smaller;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-right: 2px;
+	cursor: pointer; /* FF, Safari, Chrome */
+	cursor: hand; /* IE, Opera */
+	border: none;
+	border-radius: 30px;
+	height:35px;
+	width:140px;
+}
+
+#horseListHeader {
+	font-weight: bold;
+	text-align: left;
+	color:#000000;
+	font-size: 140%;
+	
+}
+
+#horseRaceHeader {
+	font-weight: bold;
+	text-align: left;
+	color:#000000;
+	font-size: 140%;
+	
+}
+
+#raceTable {
+	width: auto;
+	background-color: white;
+	border-spacing: 5px;
+    clear:both;
+    text-align: left;
+}
+
+#raceTable table {
+	width: 100%;
+    cell-spacing: 0px;
+    border-collapse:collapse;
+    text-align: right;
+    margin-top: 0.25em;
+    clear: both;
+    border:1px solid #C2D4E8;
+}
+
+#raceTable td, #resultsTable th {
+	background-color: #FFFFFF;
+	padding-right: 6px;
+    padding-left:6px;
+    /* padding-top: 6px;
+    padding-bottom: 6px; */
+    font-size: 120%;
+    white-space:nowrap;
+}
+
+#raceTable th {
+	background-color: #ffffff;
+	font-size: 130%;
+	text-align: right;
+}
+
+#raceData {
+	height: 650px;
+	overflow-y:auto; 
+}
+
+#hdrPlacings {
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.placer {
+	font-size: 110%;
+	padding-left: 35px;
+}
+
+.placeNum {
+	font-style: italic;
+	color: gray;
+	font-size: 90%;
+	padding-left: 35px;
+}
+
+ ::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+

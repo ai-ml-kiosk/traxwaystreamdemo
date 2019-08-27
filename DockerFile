@@ -1,0 +1,4 @@
+FROM maven:3-jdk-11 as builder
+EXPOSE 8080
+ADD /target/traxwayStreamDemo-0.0.1-SNAPSHOT.war traxwayStreamDemo-0.0.1-SNAPSHOT.war
+ENTRYPOINT ["java", "-jar", "traxwayStreamDemo-0.0.1-SNAPSHOT.war"]

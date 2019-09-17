@@ -40,6 +40,8 @@ function submitToFlow() {
 		data["\"incidents\""] = false;
 	}
 	
+	data["\"incidents\""] = true;
+	
 	/*
 	  for (var i = 0, ii = form.length; i < ii; ++i) {
 	    var input = form[i];

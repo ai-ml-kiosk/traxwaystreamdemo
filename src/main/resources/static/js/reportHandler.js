@@ -40,32 +40,17 @@ function submitToFlow() {
 		data["\"incidents\""] = false;
 	}
 	
-	data["\"incidents\""] = true;
+	data["\"syncpFolder\""] = document.getElementById("syncPSelect").value;
 	
-	/*
-	  for (var i = 0, ii = form.length; i < ii; ++i) {
-	    var input = form[i];
-	    if (input.name) {
-	    	if (input.value == "on") {
-	    		
-	    	} else {
-	    		data[input.name] = input.value;
-	    	}
-	    }
-	  }
-	  
-	  */
-	  
-	  alert(data);
+	data["\"emailAddrTxt\""] = document.getElementById("emailAddrTxt").value;
 	
-/*	
 	var xhr = new XMLHttpRequest();
-	  xhr.open(form.method, form.action, true);
+	  xhr.open("POST", "https://test-e4e6d0cc6b9ae2c3016b9c0332cb0161.apicentral.axwayamplify.com/ReportGenerator_sandbox_flow_400727-/executions" , true);
 	  xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
 
 	  // send the collected data as JSON
 	  xhr.send(JSON.stringify(data));
-	  */
+	  
 }
 
 

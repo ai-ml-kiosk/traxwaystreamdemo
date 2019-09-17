@@ -44,7 +44,7 @@
 			  <td><img src="/images/SyncPLogo.PNG" alt="SyncP logo" width="390" height="90"></td><td><input type="checkbox" id="syncP"/></td>
 			  <td><img src="/images/STLogo.PNG" alt="ST logo" width="390" height="90"></td><td><input type="checkbox" id="st"/></td></tr>
 	
-			  <tr><td>Address:<input type="text" id="emailAddrTxt" name=""></td><td></<td><select id="syncPSelect" name="syncpFolder"><option id="selExternal" value="external">external</option><option id="selInternal" value="internal">internal</option></select></td><td></<td><td></td></tr>
+			  <tr><td>Address:<input type="text" id="emailAddrTxt" name=""></td><td></<td>Target Folder<select id="syncPSelect" name="syncpFolder"><option id="selExternal" value="external">external</option><option id="selInternal" value="internal">internal</option></select></td><td></<td><td></td></tr>
 				<tr><td><input id="btnSubmit" type="button" name="Submit" value="Submit" onclick="submitToFlow()"></td></tr>
 			</table>
 		</form>

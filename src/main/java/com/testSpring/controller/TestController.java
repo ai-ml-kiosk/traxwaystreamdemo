@@ -14,6 +14,13 @@ public class TestController {
 
 	        return "/viewer";
 	    }
+	 
+	 
+	 @RequestMapping(value = "/reportHandler") 
+	 public String viewReportUI() {
+		 
+		 return "/reportHandler";
+	 }
 	
 	
 }

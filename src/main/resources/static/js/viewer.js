@@ -18,15 +18,11 @@ var eventSource = null;
 		       // json object stored locally.
 		       prices = data;
 		       console.log("DATA RECEVIED:  " + JSON.stringify(data))
-		      // document.getElementById("result").innerHTML += JSON.stringify(stocks) + "</BR>";
 		       processInitialPriceData(prices);
 		     })
 		     .onPatch(function(patch) {
-		       // use json patch library to apply the patch (patch)
-		       // to the original snapshot (stocks)
 		       jsonpatch.apply(prices, patch);
 		       console.log("PATCH RECEVIED:  " + JSON.stringify(patch))
-		       //document.getElementById("result").innerHTML += JSON.stringify(stocks) + "</BR>";;
 		       processPricePatchData(prices);
 		     })
 		     .onError(function(error) {

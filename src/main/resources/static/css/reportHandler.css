@@ -1,0 +1,89 @@
+
+.header {
+	width: 100%;
+	background-color: white;
+	border-spacing: 5px;
+    clear:both;
+    border-bottom-style:solid;
+    border-color: #000000;
+}
+
+
+.header table{
+	width: 100%;
+    cell-spacing: 0px;
+    border-collapse:collapse;
+    margin-top: 0.25em;
+    clear: both;
+}
+
+.selectionTable {
+	width: auto;
+	background-color: white;
+	border-spacing: 5px;
+    clear:both;
+    text-align: left;
+}
+
+.selectionTable table {
+	width: 100%;
+    cell-spacing: 0px;
+    border-collapse:collapse;
+    text-align: left;
+    margin-top: 0.25em;
+    clear: both;
+    border:1px solid #C2D4E8;
+}
+
+.selectionTable td, .selectionTable th {
+	background-color: #FFFFFF;
+	padding-right: 6px;
+    padding-left:6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 120%;
+    white-space:nowrap;
+    text-align:left;
+}
+
+.selectionTable th {
+	background-color: #ffffff;
+	font-size: 130%;
+	text-align: left;
+}
+
+.button {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: smaller;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-right: 2px;
+	cursor: pointer; /* FF, Safari, Chrome */
+	cursor: hand; /* IE, Opera */
+	border: none;
+	border-radius: 30px;
+	height:35px;
+	width:140px;
+}
+
+ ::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
